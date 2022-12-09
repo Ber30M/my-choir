@@ -19,5 +19,13 @@
 export default {};
 </script>
 <style scoped>
-
+.container{
+  display: flex;
+  justify-content: center;
+  background: rgb(44, 22, 63);
+}
+.centered {
+  margin-top: 30%;
+  width: 30%;
+}
 </style>
