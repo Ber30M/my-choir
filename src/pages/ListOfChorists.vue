@@ -14,13 +14,9 @@
     </IonPage>
 </template>
 <script>
-import {IonPage, IonContent, IonHeader, IonTitle,  } from '@ionic/vue';
 export default {
     components: {
-        IonPage,
-        IonHeader,
-        IonTitle,
-        IonContent
+    
     },
 }
 </script>
