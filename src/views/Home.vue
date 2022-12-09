@@ -10,6 +10,7 @@
           <ion-label position="floating">Your name</ion-label>
           <ion-input clear-input="true" placeholder="e.g: MAKOBERO Bertrand"></ion-input>
         </ion-item>
+        <ion-button>Validate</ion-button>
       </ion-content>
     
   </ion-page>

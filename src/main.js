@@ -7,8 +7,10 @@ import {
   IonRouterOutlet, IonCol, IonButton, IonItem, IonInput, IonLabel
 } from '@ionic/vue';
 import '@ionic/core/css/ionic.bundle.css'
+import BaseLayout from './components/base/BaseLayout.vue'
 
 const app = createApp(App).use(IonicVue).use(router);
+app.component('base-layout', BaseLayout)
 
 app.component("IonRouterOutlet", IonRouterOutlet)
 app.component("IonApp", IonApp)
