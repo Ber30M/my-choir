@@ -4,7 +4,7 @@ import router from './router'
 import store from './store'
 import {
   IonApp, IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonicVue,
-  IonRouterOutlet , IonItem, IonLabel, IonInput
+  IonRouterOutlet , IonItem, IonLabel, IonInput, IonButton, IonSelect, IonSelectOption, IonList
 } from '@ionic/vue';
 import '@ionic/core/css/ionic.bundle.css'
 
@@ -17,8 +17,12 @@ app.component("IonHeader", IonHeader)
 app.component("IonToolbar", IonToolbar)
 app.component("IonTitle", IonTitle)
 app.component("IonContent", IonContent)
-app.component("IonContent", IonItem)
-app.component("IonContent", IonLabel)
-app.component("IonContent", IonInput)
+app.component("IonItem", IonItem)
+app.component("IonLabel", IonLabel)
+app.component("IonInput", IonInput)
+app.component("IonButton", IonButton)
+app.component("IonSelect", IonSelect)
+app.component("IonSelectOption", IonSelectOption)
+app.component("IonList", IonList)
 
 app.mount('#app');

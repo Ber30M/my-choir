@@ -8,7 +8,9 @@ import FormChorist from '../views/FormChorist.vue'
 
 const routes = [
   { path: '/', name: 'Home', component: Home},
-  { path: '/', name: 'Home', component: Home},
+  { path: '/Presence', name: 'Presence', component: Presence},
+  { path: '/Choristes', name: 'Choristes', component: Choristes},
+  { path: '/Formchorist', name: 'formchorist', component: FormChorist},
 ]
 
 const router = createRouter({

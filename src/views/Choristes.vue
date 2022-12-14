@@ -6,15 +6,13 @@
       </ion-toolbar>
       </ion-header>
      <ion-content class="ion-padding">
-        <ion-item>
-          <ion-label position="floating">Your name</ion-label>
-          <ion-input clear-input="true"></ion-input>
-          <ion-label position="floating">Your password</ion-label>
-          <ion-input clear-input="true"></ion-input>
-        </ion-item>
-        <ion-button>Validate</ion-button>
+      <ion-item-sliding>
+        <ion-icon name="mail">jj</ion-icon>
+        <ion-label>
+          56 unread messages
+        </ion-label>
+      </ion-item-sliding>
       </ion-content>
-    
   </ion-page>
 </template>
 
